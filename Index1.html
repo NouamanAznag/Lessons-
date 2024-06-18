@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style1.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  
+  <header>
+    <div class="logo">
+      <a href="Index.html" class="logo">Lessons Manager</a>
+    </div>
+    <nav class="navigation">
+      <a href="Index.html" onclick="window.location.reload();">Home</a>
+      <a href="">Sign In</a>
+    </nav>
+  </header>
+  <section>
+    <div class="container">
+      <div class="Login">
+        <h1 class="Title">Login</h1>
+        <div>
+          <input type="text" class="username" placeholder="User Name or e-mail" name="username">
+          <i class='bx bxs-user'></i>
+        </div>  
+        <div>
+          <input type="password" name="password" placeholder="Enter Password" class="password">
+          <i class='bx bxs-lock-alt' id="lock"></i>
+        </div>
+        <div class="remember-forget">
+          <label><input type="checkbox" class="rememberme"> <span class="Re">Remember Me</span></label>
+        </div>
+        <div>
+        <p class="Sign">Don't Have An Account?<a href="#" class="Signi"> Sign In</a></p>
+        </div>
+        <div>  
+          <a type="submit" class="btn" >Connect</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

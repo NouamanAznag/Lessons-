@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 100px;
+  margin-top: 10px;
+}
+.logo {
+  text-decoration: none;
+  color: #3a6cf4;
+  font-size: 1.4em;
+  font-weight: 700;
+  padding-left: 10px;
+  transition: 100ms;
+  display: flex;
+  cursor: text;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #8caaff;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+  transition: 100ms;
+  cursor: pointer;
+}
+.navigation a:hover {
+  color: #163a9e;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 100ms;
+  font-weight: 600;
+}
+body {
+  background: url(Image.jpg) no-repeat;
+  background-size: cover;
+}
+.Text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  align-items: center;
+  padding: 250px 120px;
+  font-size: 1.8em;
+}
+.Welcom {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.Manager {
+  color: aquamarine;
+}
+.Grade {
+  color: rgb(255, 217, 147);
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border: solid #0044ff;
+  border-radius: 20px;
+  text-decoration: none;
+  background: #0044ff;
+  align-items: center;
+  padding: 12px 14px;
+  position: fixed;
+  color: white;
+  font-weight: 500px;
+  margin-left: -260px;
+  margin-top: 130px;
+  transition: 300ms;
+}
+.btn:hover {
+  border: solid #ffffff;
+  border-radius: 20px;
+  text-decoration: none;
+  background: transparent;
+  align-items: center;
+  padding: 12px 14px;
+  position: fixed;
+  color: white;
+  font-weight: 500px;
+  margin-left: -150px;
+  transition: 300ms;
+  box-sizing: border-box;
+}
