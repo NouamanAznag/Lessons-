@@ -361,7 +361,7 @@ h3 p {
     font-size: 10px;
   }
   .Welcom {
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -375,7 +375,7 @@ h3 p {
   }
   .Grade {
     font-weight: 100;
-    font-size: 13px;
+    font-size: 10px;
   }
   .Login {
     margin-right: 10px;
