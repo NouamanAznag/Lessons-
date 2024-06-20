@@ -105,6 +105,7 @@ section {
   flex-wrap: wrap;
   font-size: 17px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
 }
 .card {
   background: white;
@@ -112,35 +113,45 @@ section {
   box-shadow: 0 1px 10px rgb(255, 255, 255);
   border-radius: 10px;
   padding: 25px 40px;
-  margin: 20px 20px;
+  margin: 30px 20px;
   transition: 0.7s ease;
   color: white;
   transition: 500ms;
+  text-decoration: none;
 }
 .card:hover {
-  transform: scale(1.06);
+  transform: scale(1.05);
   margin: 20px 20px;
   transition: 500ms;
+  margin: 30px 20px;
+  text-decoration: none;
 }
 .card .icon {
   color: #001d6b;
   font-size: 8em;
   text-align: center;
+  text-decoration: none;
 }
 #card1 {
   background: url(Image2.jpg) no-repeat;
   background-size: cover;
+  text-decoration: none;
 }
 #card2 {
   background: url(image1.jpg) no-repeat;
   background-size: cover;
+  text-decoration: none;
+  color: white;
 }
 #card3 {
   background: url(Image3.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
+  text-decoration: none;
 }
 .info {
   text-align: center;
+  text-decoration: none;
 }
 .info h3{
   color: #3a6cf4;
@@ -149,27 +160,40 @@ section {
   margin: 10px;
   margin-bottom: 60px;
   margin-top: 10px;
+  text-decoration: none;
 }
 .card-title {
   font-size: 30px;
+  text-decoration: none;
 }
 p {
   font-size: 25px;
   padding: 10px 20px;
+  text-decoration: none;
 }
 #edit {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 #star {
   color: rgb(255, 255, 0);
+  text-decoration: none;
 }
 #dollar {
   color: rgb(0, 190, 0);
+  text-decoration: none;
 }
 .Home {
   color: white;
   position: relative;
   bottom: 2300px;
+  text-decoration: none;
+}
+h3 p {
+  text-decoration: none;
+}
+.Go-to {
+  text-decoration: none;
 }
 @media (max-width:1003px) {
   *{
@@ -179,7 +203,7 @@ p {
     scroll-behavior: smooth;
   }
   header {
-    padding: 12px 10px;
+    padding: 20px 10px;
     font-size: 18px;
     background-color: #201f30;
     width: 100%;
@@ -200,6 +224,9 @@ p {
     justify-content: center;
     margin-bottom: 10px;
   }
+  .title {
+    font-size: 50px;
+  }
   .Text {
     font-size: 30px;
     padding: 250px 20px;
@@ -208,10 +235,153 @@ p {
     font-weight: 100;
   }
   .Login {
-    margin-right: 70px;
+    margin-right: 50px;
   }
   .logo {
     font-size: 30px;
-    margin-left: 50px;
+    margin-left: 20px;
+  }
+}
+@media (max-width:803px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 15px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  .Welcom {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .Text {
+    font-size: 20px;
+    padding: 250px 10px;
+  }
+  .Grade {
+    font-weight: 100;
+  }
+  .Login {
+    margin-right: 20px;
+  }
+  .logo {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+@media (max-width:639px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 15px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 10px;
+    font-size: 10px;
+  }
+  .Welcom {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .Text {
+    font-size: 10px;
+    padding: 250px 10px;
+  }
+  .Grade {
+    font-weight: 100;
+    font-size: 15px;
+  }
+  .Login {
+    margin-right: 40px;
+  }
+  .logo {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+}
+@media (max-width:639px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 15px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 8px;
+    font-size: 10px;
+  }
+  .Welcom {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .Text {
+    font-size: 8px;
+    padding: 250px 10px;
+  }
+  .Grade {
+    font-weight: 100;
+    font-size: 13px;
+  }
+  .Login {
+    margin-right: 10px;
+  }
+  .logo {
+    font-size: 20px;
+    margin-left: 10px;
   }
 }
