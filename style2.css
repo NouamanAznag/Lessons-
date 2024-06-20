@@ -90,31 +90,33 @@ body {
 .btn {
   border: rgb(94, 94, 255);
   border-radius: 20px;
-  padding: 7px 110px;
+  padding: 12px 105px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
-  background-color: rgb(94, 94, 255);
+  font-size: 20px;
+  background-color: rgb(70, 119, 255);
   margin-top: 40px;
   cursor: pointer;
   transition: 100ms;
+  color: white;
 }
 .btn:hover {
-  border: rgb(94, 94, 255);
+  border: rgb(51, 105, 253);
   border-radius: 20px;
-  padding: 7px 110px;
+  padding: 12px 105px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
-  background-color: rgb(69, 69, 255);
+  font-size: 20px;
+  background-color: rgb(51, 105, 253);
   margin-top: 40px;
   cursor: pointer;
   transform: scale(1.01);
   transition: 100ms;
+  color: white;
 }
 ::placeholder {
   display: flex;
@@ -123,7 +125,7 @@ body {
 }
 .Signi {
   text-decoration: none;
-  color: rgb(120, 17, 255);
+  color: rgb(62, 81, 253);
 }
 .ask {
   margin-top: 20px;
