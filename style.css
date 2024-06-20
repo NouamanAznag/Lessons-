@@ -115,12 +115,12 @@ section {
   margin: 20px 20px;
   transition: 0.7s ease;
   color: white;
-  transition: 300ms;
+  transition: 500ms;
 }
 .card:hover {
   transform: scale(1.05);
   margin: 20px 20px;
-  transition: 300ms;
+  transition: 500ms;
 }
 .card .icon {
   color: #001d6b;
