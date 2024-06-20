@@ -44,16 +44,7 @@ body {
   transition: 100ms;
   font-weight: 600;
 }
-.Login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  min-height: 100vh;
-  flex-direction: column;
-  color: white;
-  background: transparent;
-}
+
 .Title {
   margin-bottom: 50px;
   font-size: 40px;
