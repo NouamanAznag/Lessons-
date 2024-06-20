@@ -15,6 +15,10 @@ header {
   padding: 20px 160px ;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.Login1 {
+  padding: 10px;
+  padding-right: 30px
+}
 .logo {
   text-decoration: none;
   color: #3a6cf4;
