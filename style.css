@@ -192,6 +192,11 @@ p {
 #dollar {
   color: rgb(0, 190, 0);
 }
+.Home {
+  color: white;
+  position: relative;
+  bottom: 2300px;
+}
 @media (max-width:1003px) {
   *{
     margin: 0;
