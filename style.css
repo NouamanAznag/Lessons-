@@ -73,34 +73,6 @@ body {
   display: flex;
   justify-content: center;
 }
-.btn {
-  border: solid #0044ff;
-  border-radius: 20px;
-  text-decoration: none;
-  background: #0044ff;
-  align-items: center;
-  padding: 12px 14px;
-  position: fixed;
-  color: white;
-  font-weight: 500px;
-  margin-left: -260px;
-  margin-top: -300px;
-  transition: 300ms;
-}
-.btn:hover {
-  border: solid #ffffff;
-  border-radius: 20px;
-  text-decoration: none;
-  background: transparent;
-  align-items: center;
-  padding: 12px 14px;
-  position: fixed;
-  color: white;
-  font-weight: 500px;
-  margin-left: -150px;
-  transition: 300ms;
-  box-sizing: border-box;
-}
 section {
   padding: 100px 10px;
 }
@@ -143,10 +115,12 @@ section {
   margin: 20px 20px;
   transition: 0.7s ease;
   color: white;
+  transition: 300ms;
 }
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
   margin: 20px 20px;
+  transition: 300ms;
 }
 .card .icon {
   color: #001d6b;
@@ -235,12 +209,6 @@ p {
   }
   .Login {
     margin-right: 70px;
-  }
-  .btn {
-    margin-left: -170px;
-  }
-  .btn:hover {
-    margin-left: -55px;
   }
   .logo {
     font-size: 30px;
