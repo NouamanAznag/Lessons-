@@ -19,16 +19,7 @@ body {
   background: url(Image.jpg) no-repeat;
   background-size: cover;
 }
-.logo {
-  text-decoration: none;
-  color: #3a6cf4;
-  font-size: 1.4em;
-  font-weight: 700;
-  padding-left: 10px;
-  transition: 100ms;
-  display: flex;
-  cursor: default;
-}
+
 .navigation a{
   text-decoration: none;
   color: #8caaff;
@@ -44,7 +35,16 @@ body {
   transition: 100ms;
   font-weight: 600;
 }
-
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 100vh;
+  flex-direction: column;
+  color: white;
+  background: transparent;
+}
 .Title {
   margin-bottom: 50px;
   font-size: 40px;
