@@ -44,7 +44,7 @@ body {
   transition: 100ms;
   font-weight: 600;
 }
-.Login {
+.Login1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,4 +135,144 @@ body {
 .Signi {
   text-decoration: none;
   color: rgb(62, 81, 253);
+}
+@media (max-width:1003px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 20px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 20px;
+    font-size: 15px;
+  }
+  .Title {
+    font-size: 50px;
+  }
+  .Login {
+    margin-right: 50px;
+  }
+  .logo {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+@media (max-width:803px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 15px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  .Title {
+    font-size: 40px;
+  }
+  .Login {
+    margin-right: 20px;
+  }
+  .logo {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+@media (max-width:639px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 15px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 8px;
+    font-size: 10px;
+  }
+  .Title {
+    font-size: 30px;
+  }
+  .Login {
+    margin-right: 10px;
+  }
+  .logo {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+@media (max-width:421px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 15px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 8px;
+    font-size: 10px;
+  }
+  .Title {
+    font-size: 30px;
+  }
+  .Login {
+    margin-right: 5px;
+  }
+  .logo {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .container {
+    padding: 50px 20px;
+    font-size: 15px;
+  }
 }
