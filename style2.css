@@ -53,6 +53,7 @@ body {
   flex-direction: column;
   color: white;
   background: transparent;
+  font-size: 10px;
 }
 .Title {
   margin-bottom: 50px;
