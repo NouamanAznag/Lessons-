@@ -44,7 +44,7 @@ body {
   transition: 100ms;
   font-weight: 600;
 }
-.Login {
+.Login1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,24 +53,14 @@ body {
   flex-direction: column;
   color: white;
   background: transparent;
-  font-size: 10px;
 }
 .Title {
   margin-bottom: 50px;
-  font-size: 35px;
+  font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 40px;
 }
 .username {
-  padding: 15px 60px;
-  border-radius: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 290px;
-  margin-bottom: 30px;
-  margin-left: 18px;
-}
-.e-mail {
   padding: 15px 60px;
   border-radius: 20px;
   padding-left: 30px;
@@ -88,10 +78,28 @@ body {
   margin-bottom: 10px;
   margin-left: 18px;
 }
+.remember-forget {
+  display: flex;
+  justify-content: start;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.rememberme {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.Re {
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 20px;
+  color: rgb(168, 196, 255);
+}
 .btn {
   border: rgb(94, 94, 255);
   border-radius: 20px;
-  padding: 12px 105px;
+  padding: 12px 115px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -106,7 +114,7 @@ body {
 .btn:hover {
   border: rgb(51, 105, 253);
   border-radius: 20px;
-  padding: 12px 105px;
+  padding: 12px 115px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -117,7 +125,7 @@ body {
   cursor: pointer;
   transform: scale(1.01);
   transition: 100ms;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 ::placeholder {
   display: flex;
@@ -128,8 +136,282 @@ body {
   text-decoration: none;
   color: rgb(62, 81, 253);
 }
-.ask {
-  margin-top: 20px;
+@media (max-width:1003px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 20px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 20px;
+    font-size: 15px;
+  }
+  .Title {
+    font-size: 50px;
+  }
+  .Login {
+    margin-right: 50px;
+  }
+  .logo {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+@media (max-width:803px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 15px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  .Title {
+    font-size: 40px;
+  }
+  .Login {
+    margin-right: 20px;
+  }
+  .logo {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+@media (max-width:639px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 15px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 8px;
+    font-size: 10px;
+  }
+  .Title {
+    font-size: 30px;
+  }
+  .Login {
+    margin-right: 10px;
+  }
+  .logo {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+@media (max-width:421px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header {
+    padding: 15px 10px;
+    font-size: 18px;
+    background-color: #201f30;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navigation a {
+    padding-left: 8px;
+    font-size: 10px;
+  }
+  .Title {
+    font-size: 30px;
+  }
+  .Login {
+    margin-right: 5px;
+  }
+  .logo {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .container {
+    padding: 50px 20px;
+    font-size: 15px;
+  }
+}*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #201f30;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 160px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+  background: url(Image.jpg) no-repeat;
+  background-size: cover;
+}
+.logo {
+  text-decoration: none;
+  color: #3a6cf4;
+  font-size: 1.4em;
+  font-weight: 700;
+  padding-left: 10px;
+  transition: 100ms;
+  display: flex;
+  cursor: default;
+}
+.navigation a{
+  text-decoration: none;
+  color: #8caaff;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+  transition: 100ms;
+}
+.navigation a:hover{
+  color: #163a9e;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 100ms;
+  font-weight: 600;
+}
+.Login1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 100vh;
+  flex-direction: column;
+  color: white;
+  background: transparent;
+}
+.Title {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+}
+.username {
+  padding: 15px 60px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 290px;
+  margin-bottom: 30px;
+  margin-left: 18px;
+}
+.password {
+  padding: 15px 60px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 290px;
+  margin-bottom: 10px;
+  margin-left: 18px;
+}
+.remember-forget {
+  display: flex;
+  justify-content: start;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.rememberme {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.Re {
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 20px;
+  color: rgb(168, 196, 255);
+}
+.btn {
+  border: rgb(94, 94, 255);
+  border-radius: 20px;
+  padding: 12px 115px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgb(70, 119, 255);
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 100ms;
+  color: white;
+}
+.btn:hover {
+  border: rgb(51, 105, 253);
+  border-radius: 20px;
+  padding: 12px 115px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgb(51, 105, 253);
+  margin-top: 40px;
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: 100ms;
+  color: rgb(255, 255, 255);
+}
+::placeholder {
+  display: flex;
+  position: absolute;
+  left: 30px;
+}
+.Signi {
+  text-decoration: none;
+  color: rgb(62, 81, 253);
 }
 @media (max-width:1003px) {
   *{
