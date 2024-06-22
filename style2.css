@@ -49,7 +49,6 @@ body {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  min-height: 100vh;
   flex-direction: column;
   color: white;
   background: transparent;
